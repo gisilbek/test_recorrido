@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Contract < ApplicationRecord
   validates :name, presence: true
   validates :week_start_time, presence: true
