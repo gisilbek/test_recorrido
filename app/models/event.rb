@@ -8,6 +8,6 @@ class Event < ApplicationRecord
   validates :contract, presence: true
   validates :start_time, presence: true
   validates :end_time, presence: true
-  
+
   enum personal: { Ernesto: 1, Barbara: 2, Benjamin: 3 }
 end
