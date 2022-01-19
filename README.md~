@@ -48,6 +48,14 @@ Consulta Eventos
     :id, :, :, :, :, :, :
        Ejemplo:  {"event":{"name":"CompanyTech","date": "2022-01-29","personal":1,contract_id:1,"start_time":"10", "end_time":"23"  }}
       
+Consulta Indicadores Económicos
+    • http://localhost:3000/api/v1/indicators   Method:: GET
+ NOTA: Muestra la informacion de los indicadores, falto hacer el string 
+
+Informacion del Clientes
+    • http://localhost:3000/api/v1/clients  Method:: GET
+
+
 ```
 
 #  README END
