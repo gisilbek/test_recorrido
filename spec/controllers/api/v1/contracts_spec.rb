@@ -28,11 +28,11 @@ RSpec.describe Api::V1::ContractsController, type: :request do
   }
 
   let(:invalid_attributes) {{
-    name: "",
-    week_start_time: NULL,
-    week_end_time:NULL ,
-    weekend_start_time: NULL ,
-    weekend_end_time:NULL  }
+    name: nil,
+    week_start_time: nil,
+    week_end_time: nil,
+    weekend_start_time: nil,
+    weekend_end_time:nil }
     skip('Add a hash of attributes invalid for your model')
   }
 
